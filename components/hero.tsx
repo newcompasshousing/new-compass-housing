@@ -32,19 +32,19 @@ export function Hero() {
         
         <BrandName 
           size="xl" 
-          className="items-center text-primary-foreground [&_span]:text-primary-foreground [&_.text-secondary]:text-[#8BC34A]"
+          className="items-center text-white [&_span]:text-primary-foreground [&_.text-secondary]:text-[#8BC34A]"
         />
         
-        <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-primary-foreground/90">
+        <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-white/90">
           Structured Sober Living Homes
         </p>
-        <p className="mt-4 text-pretty text-xl text-primary-foreground md:text-2xl">
+        <p className="mt-4 text-pretty text-xl text-white md:text-2xl">
           Helping You Get To Where You Need To Go
         </p>
         <p className="mt-6 text-lg font-medium italic text-[#8BC34A]">
           Accountability &bull; Stability &bull; Recovery
         </p>
-        <p className="mt-2 text-primary-foreground/80">
+        <p className="mt-2 text-white/80">
           Serving San Bernardino County &amp; High Desert
         </p>
         
@@ -57,7 +57,7 @@ export function Hero() {
           </Button>
         </div>
         
-        <p className="mt-8 text-sm text-primary-foreground/70">
+        <p className="mt-8 text-sm text-white/70">
           All referrals reviewed within 24 hours
         </p>
       </div>
